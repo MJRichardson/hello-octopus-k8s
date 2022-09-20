@@ -24,7 +24,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: hello-octopus
+        images: hellooctopus.azurecr.io/hello-octopus
         
     - name: Build and push
       uses: docker/build-push-action@v3
